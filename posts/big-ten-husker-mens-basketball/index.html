@@ -391,8 +391,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"Player"</span>, </span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"3-Point Attempts"</span>, </span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Sandfort Shoots More Threes Than Anyone in the Big Ten"</span>,</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Among players averaging at least 5 threes per game, Sandfort is at the top of the conference."</span>, </span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"No One Shoots More Than Sandfort"</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Among players averaging at least 5 threes per game, he leads the Big Ten in three-point attempts"</span>, </span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: Sports Reference | By: Katie Freeman"</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
@@ -450,8 +450,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="fu">labs</span>(</span>
 <span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"3-Point Field Goals"</span>, </span>
 <span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"3-Point Percentage"</span>, </span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Sandfort Combines High Volume with Efficient 3-Point Shooting"</span>, </span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Sandfort stands out for taking a high number of threes while maintaining strong shooting efficiency."</span>, </span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"High Volume Doesn't Mean Lower Efficiency for Sandfort"</span>, </span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Most high-volume shooters see their accuracy drop, but Sandfort proves that doesn't have to happen."</span>, </span>
 <span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: Sports Reference | By: Katie Freeman"</span></span>
 <span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
 <span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
@@ -492,7 +492,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
 <span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">""</span>,</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"3-Point Attempts"</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"3-Pointers Made"</span></span>
 <span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() </span>
 <span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a></span>
@@ -502,8 +502,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>bar2 <span class="sc">+</span> bar1 <span class="sc">+</span></span>
 <span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot_annotation</span>(</span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Pryce Sandfort: Volume Shooter and Efficient Scorer"</span>,</span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Leading the Big Ten in three-point attempts and ranking 4th in accuracy."</span>,</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Sandfort Shoots More and Shoots Better Than Most"</span>,</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"He leads the Big Ten in three-point attempts and sits among the conference's most accurate shooters."</span>,</span>
 <span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: Sports Reference | By: Katie Freeman"</span></span>
 <span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  )  <span class="sc">&amp;</span> </span>
 <span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
@@ -521,10 +521,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Sandfort leads the conference in three-point attempts and doesn’t fall far behind in accuracy, ranking near the top of the Big Ten in three-point percentage.</p>
+<p>Sandfort leads the conference in three-pointers made per game and doesn’t fall far behind in accuracy, ranking near the top of the Big Ten in three-point percentage.</p>
 <p>This combination is what makes Sandfort a dangerous player.</p>
 <p>You can’t afford to leave him open because of his efficiency. You also can’t shut him down, because his volume ensures he will continue to get opportunities. This dual threat forces opponnets into difficult decisions with every possession.</p>
 <p>He isn’t just a high-volume player. He’s an efficient one, too. That’s what makes him arguably the most dangerous three-point shooter in the Big Ten.</p>
+<p>The Pryce is right!</p>
 <p>Plot #5 — delete</p>
 <div class="cell">
 <details class="code-fold">
@@ -593,23 +594,23 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
 <span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div id="ftoxufkxyl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ftoxufkxyl table {
+<div id="rgkmmozgig" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#rgkmmozgig table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#ftoxufkxyl thead, #ftoxufkxyl tbody, #ftoxufkxyl tfoot, #ftoxufkxyl tr, #ftoxufkxyl td, #ftoxufkxyl th {
+#rgkmmozgig thead, #rgkmmozgig tbody, #rgkmmozgig tfoot, #rgkmmozgig tr, #rgkmmozgig td, #rgkmmozgig th {
   border-style: none;
 }
 
-#ftoxufkxyl p {
+#rgkmmozgig p {
   margin: 0;
   padding: 0;
 }
 
-#ftoxufkxyl .gt_table {
+#rgkmmozgig .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -635,12 +636,12 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-left-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_caption {
+#rgkmmozgig .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ftoxufkxyl .gt_title {
+#rgkmmozgig .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -652,7 +653,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-bottom-width: 0;
 }
 
-#ftoxufkxyl .gt_subtitle {
+#rgkmmozgig .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -664,7 +665,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-top-width: 0;
 }
 
-#ftoxufkxyl .gt_heading {
+#rgkmmozgig .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -676,13 +677,13 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-right-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_bottom_border {
+#rgkmmozgig .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_col_headings {
+#rgkmmozgig .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -697,7 +698,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-right-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_col_heading {
+#rgkmmozgig .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -717,7 +718,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   overflow-x: hidden;
 }
 
-#ftoxufkxyl .gt_column_spanner_outer {
+#rgkmmozgig .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -729,15 +730,15 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   padding-right: 4px;
 }
 
-#ftoxufkxyl .gt_column_spanner_outer:first-child {
+#rgkmmozgig .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ftoxufkxyl .gt_column_spanner_outer:last-child {
+#rgkmmozgig .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ftoxufkxyl .gt_column_spanner {
+#rgkmmozgig .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -749,11 +750,11 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   width: 100%;
 }
 
-#ftoxufkxyl .gt_spanner_row {
+#rgkmmozgig .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#ftoxufkxyl .gt_group_heading {
+#rgkmmozgig .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -779,7 +780,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   text-align: left;
 }
 
-#ftoxufkxyl .gt_empty_group_heading {
+#rgkmmozgig .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -794,15 +795,15 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   vertical-align: middle;
 }
 
-#ftoxufkxyl .gt_from_md > :first-child {
+#rgkmmozgig .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ftoxufkxyl .gt_from_md > :last-child {
+#rgkmmozgig .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ftoxufkxyl .gt_row {
+#rgkmmozgig .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -821,7 +822,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   overflow-x: hidden;
 }
 
-#ftoxufkxyl .gt_stub {
+#rgkmmozgig .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -834,7 +835,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   padding-right: 5px;
 }
 
-#ftoxufkxyl .gt_stub_row_group {
+#rgkmmozgig .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -848,15 +849,15 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   vertical-align: top;
 }
 
-#ftoxufkxyl .gt_row_group_first td {
+#rgkmmozgig .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ftoxufkxyl .gt_row_group_first th {
+#rgkmmozgig .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#ftoxufkxyl .gt_summary_row {
+#rgkmmozgig .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -866,16 +867,16 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   padding-right: 5px;
 }
 
-#ftoxufkxyl .gt_first_summary_row {
+#rgkmmozgig .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_first_summary_row.thick {
+#rgkmmozgig .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ftoxufkxyl .gt_last_summary_row {
+#rgkmmozgig .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -885,7 +886,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-bottom-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_grand_summary_row {
+#rgkmmozgig .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -895,7 +896,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   padding-right: 5px;
 }
 
-#ftoxufkxyl .gt_first_grand_summary_row {
+#rgkmmozgig .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -905,7 +906,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-top-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_last_grand_summary_row_top {
+#rgkmmozgig .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -915,11 +916,11 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-bottom-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_striped {
+#rgkmmozgig .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ftoxufkxyl .gt_table_body {
+#rgkmmozgig .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -928,7 +929,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-bottom-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_footnotes {
+#rgkmmozgig .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -942,7 +943,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-right-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_footnote {
+#rgkmmozgig .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -951,7 +952,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   padding-right: 5px;
 }
 
-#ftoxufkxyl .gt_sourcenotes {
+#rgkmmozgig .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -965,7 +966,7 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   border-right-color: #D3D3D3;
 }
 
-#ftoxufkxyl .gt_sourcenote {
+#rgkmmozgig .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -973,72 +974,72 @@ dbl (26): Rk, G, GS, MP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT,...
   padding-right: 5px;
 }
 
-#ftoxufkxyl .gt_left {
+#rgkmmozgig .gt_left {
   text-align: left;
 }
 
-#ftoxufkxyl .gt_center {
+#rgkmmozgig .gt_center {
   text-align: center;
 }
 
-#ftoxufkxyl .gt_right {
+#rgkmmozgig .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ftoxufkxyl .gt_font_normal {
+#rgkmmozgig .gt_font_normal {
   font-weight: normal;
 }
 
-#ftoxufkxyl .gt_font_bold {
+#rgkmmozgig .gt_font_bold {
   font-weight: bold;
 }
 
-#ftoxufkxyl .gt_font_italic {
+#rgkmmozgig .gt_font_italic {
   font-style: italic;
 }
 
-#ftoxufkxyl .gt_super {
+#rgkmmozgig .gt_super {
   font-size: 65%;
 }
 
-#ftoxufkxyl .gt_footnote_marks {
+#rgkmmozgig .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#ftoxufkxyl .gt_asterisk {
+#rgkmmozgig .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ftoxufkxyl .gt_indent_1 {
+#rgkmmozgig .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ftoxufkxyl .gt_indent_2 {
+#rgkmmozgig .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ftoxufkxyl .gt_indent_3 {
+#rgkmmozgig .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ftoxufkxyl .gt_indent_4 {
+#rgkmmozgig .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ftoxufkxyl .gt_indent_5 {
+#rgkmmozgig .gt_indent_5 {
   text-indent: 25px;
 }
 
-#ftoxufkxyl .katex-display {
+#rgkmmozgig .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#ftoxufkxyl div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#rgkmmozgig div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
